@@ -1,0 +1,159 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "obj2egg star.obj star.egg"
+}
+<VertexPool> vpool {
+  <Vertex> 1 {
+    2.19615 -2.19615 -2.19615
+  }
+  <Vertex> 2 {
+    2.19615 -2.19615 2.19615
+  }
+  <Vertex> 3 {
+    -2.19615 -2.19615 2.19615
+  }
+  <Vertex> 4 {
+    -2.19615 -2.19615 -2.19615
+  }
+  <Vertex> 5 {
+    2.19615 2.19615 -2.19615
+  }
+  <Vertex> 6 {
+    2.19615 2.19615 2.19615
+  }
+  <Vertex> 7 {
+    -2.19615 2.19615 2.19615
+  }
+  <Vertex> 8 {
+    -2.19615 2.19615 -2.19615
+  }
+  <Vertex> 9 {
+    1 -1 0
+  }
+  <Vertex> 10 {
+    1 1 1e-06
+  }
+  <Vertex> 11 {
+    -1 1 -0
+  }
+  <Vertex> 12 {
+    0.530488 0 0
+  }
+  <Vertex> 13 {
+    1 0 -1
+  }
+  <Vertex> 14 {
+    1 0 1
+  }
+  <Vertex> 15 {
+    -1 0 1
+  }
+  <Vertex> 16 {
+    -1e-06 1 1
+  }
+  <Vertex> 17 {
+    0 -1 1
+  }
+  <Vertex> 18 {
+    -0 0 0.530488
+  }
+  <Vertex> 19 {
+    0 1 -1
+  }
+  <Vertex> 20 {
+    -0 0.530488 0
+  }
+  <Vertex> 21 {
+    0 -1 -1
+  }
+  <Vertex> 22 {
+    -1 0 -1
+  }
+  <Vertex> 23 {
+    0 0 -0.530488
+  }
+  <Vertex> 24 {
+    -0.530488 0 -0
+  }
+  <Vertex> 25 {
+    -1 -1 -0
+  }
+  <Vertex> 26 {
+    0 -0.530488 -0
+  }
+}
+<Group> root {
+  <Polygon> {
+    <VertexRef> { 1 9 26 21 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 10 20 16 6 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 9 12 14 2 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 14 6 16 18 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 25 24 22 4 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 13 1 21 23 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 5 19 20 10 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 1 13 12 9 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 12 10 6 14 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 13 5 10 12 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 2 14 18 17 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 20 11 7 16 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 19 8 11 20 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 18 16 7 15 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 17 18 15 3 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 23 21 4 22 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 24 11 8 22 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 19 23 22 8 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 5 13 23 19 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 3 15 24 25 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 15 7 11 24 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 9 2 17 26 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 21 26 25 4 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <VertexRef> { 26 17 3 25 <Ref> { vpool } }
+  }
+}
